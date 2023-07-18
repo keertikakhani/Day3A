@@ -20,6 +20,10 @@ namespace Day3A
             Father father = new Son();
             father.DisplayMessage();
             
+
+            UserName username = new UserName();
+            username.Name = "test";
+            Console.WriteLine(username.Name);
             
 
             Console.ReadLine();
