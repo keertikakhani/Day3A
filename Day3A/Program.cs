@@ -9,6 +9,11 @@ namespace Day3A
             Car car = new Car();
             Console.WriteLine(car.color);
 
+            Dog d = new Dog();
+            d.Eat();
+            d.Bark();
+
+
             Console.ReadLine();
         }
     }

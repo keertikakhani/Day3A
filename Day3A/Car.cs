@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day3A
 {
+    // 1. class and object concept
     public class Car
     {
         public string color = "red";
