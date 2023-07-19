@@ -24,6 +24,10 @@ namespace Day3A
             UserName username = new UserName();
             username.Name = "test";
             Console.WriteLine(username.Name);
+
+            Operation operation= new Bank();
+            operation.ATMOperation();
+            operation.Display(10000);
             
 
             Console.ReadLine();
